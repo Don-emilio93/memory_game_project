@@ -3,65 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Memory Game</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      text-align: center;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    #stats {
-      margin: 10px 0;
-      font-size: 18px;
-    }
-    #highscore {
-      margin: 10px 0;
-      font-size: 16px;
-      color: #555;
-    }
-    #game-board {
-      display: grid;
-      grid-template-columns: repeat(4, 120px);
-      gap: 15px;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    .card {
-      width: 120px;
-      height: 120px;
-      background: #3498db;
-      color: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      font-weight: bold;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: backgroun 0.3s, color 0.3s;
-    }
-    .card.flipped {
-      background: #ecf0f1;
-      color: #2c3e50;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      margin-top: 10px;
-      cursor: pointer;
-      background: #2ecc71;
-      color: white;
-      border: none;
-      border-radius: 5px;
-    }
-    button:hover {
-      background: #27ae60;
-    }
-  </style>
+  <link href="game.css" rel="stylesheet">
 </head>
 <body>
   <h1>Memory Game</h1>
